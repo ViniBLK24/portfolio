@@ -96,6 +96,7 @@ margin-top: 8%;
 main .projetos .projects-container{
     display: flex;
     align-items: center;
+    padding-bottom: 7%;
 }
 
 main .projetos .projects-container img{
@@ -116,3 +117,30 @@ main .projetos .projects-container img{
 main .projetos .projects-container img:hover{
     box-shadow: 0px 0px 10px #ff0066;  
 } 
+
+
+
+
+.btn{
+    border: 2px solid #ff0066;
+    padding: 10px 25px;
+    border-radius: 70px;
+    background-color: #ff0066;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    transition: .5s;
+   
+}
+
+main a{
+    color: #eee;
+    font-weight: 750;
+    align-items: center;
+    text-align:justify;
+}
+
+.curriculo-btn :hover{
+    background-color:transparent;
+    border-color: #eee;
+}
